@@ -79,6 +79,7 @@ See https://stackoverflow.com/questions/33747603/how-to-parse-html-using-element
 ## Pitfalls
 * Sometimes there are multiple words that refer to the same ingredient
 * Strategies will become outdated as the data sources get updated
+* Requests are blocking
 * The amount of the food produced is not quantifiable (3 cookies? What if they're really big cookies? What's the quantifiable definition of a serving anyway?)
 * The quality of the recipe is not factored (yet)
 
