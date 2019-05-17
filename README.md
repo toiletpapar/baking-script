@@ -79,3 +79,11 @@ See https://stackoverflow.com/questions/33747603/how-to-parse-html-using-element
 * Strategies will become outdated as the data sources get updated
 * The amount of the food produced is not quantifiable (3 cookies? What if they're really big cookies? What's the quantifiable definition of a serving anyway?)
 * The quality of the recipe is not factored (yet)
+
+# Setup
+1. Install python at https://www.python.org/downloads/
+2. Create your working directory `python3 -m venv <DIR>`
+3. Activate your working directory (in Windows) `<DIR>/bin/activate`
+4. Pull this skeleton repository into your working directory `cd <DIR> ; git clone https://github.com/toiletpapar/baking-script.git`
+5. Install the required dependencies for this script `pip install -r requirements.txt`
+6. Start hacking in `script.py`
