@@ -69,6 +69,8 @@ Write a function that can convert `x` standard units into `y` of the unit specif
 ### Making Web Requests to Data Sources
 I suggest using the requests library
 
+See https://2.python-requests.org/en/master/user/quickstart/
+
 ### Parsing the HTML Document
 I suggest using an XML parser like `ElementTree`.
 
