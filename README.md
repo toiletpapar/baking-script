@@ -69,14 +69,17 @@ Write a function that can convert `x` standard units into `y` of the unit specif
 ### Making Web Requests to Data Sources
 I suggest using the requests library
 
-### Parsing the HTML Document
-I suggest using an XML parser like `ElementTree`.
+See https://2.python-requests.org/en/master/user/quickstart/
 
-See https://stackoverflow.com/questions/33747603/how-to-parse-html-using-elementtree-to-find-a-particular-regex
+### Parsing the HTML Document
+I suggest using a featured HTML parser like `lxml`.
+
+See https://lxml.de/tutorial.html#the-elementtree-class
 
 ## Pitfalls
 * Sometimes there are multiple words that refer to the same ingredient
 * Strategies will become outdated as the data sources get updated
+* Requests are blocking
 * The amount of the food produced is not quantifiable (3 cookies? What if they're really big cookies? What's the quantifiable definition of a serving anyway?)
 * The quality of the recipe is not factored (yet)
 
