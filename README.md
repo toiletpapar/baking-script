@@ -72,9 +72,9 @@ I suggest using the requests library
 See https://2.python-requests.org/en/master/user/quickstart/
 
 ### Parsing the HTML Document
-I suggest using an XML parser like `ElementTree`.
+I suggest using a featured HTML parser like `lxml`.
 
-See https://stackoverflow.com/questions/33747603/how-to-parse-html-using-elementtree-to-find-a-particular-regex
+See https://lxml.de/tutorial.html#the-elementtree-class
 
 ## Pitfalls
 * Sometimes there are multiple words that refer to the same ingredient
